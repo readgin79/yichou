@@ -5,6 +5,7 @@ public class Main {
 		System.out.println("Just For Test.");
 		System.out.println("altruistic!");
 		System.out.println("pragmatic!");
+		System.out.println("conflict test");
 	}
 
 }
