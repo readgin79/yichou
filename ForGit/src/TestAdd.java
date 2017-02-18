@@ -4,5 +4,6 @@ public class TestAdd {
 		System.out.println("xxx");
 		System.out.println("ssss");
 		System.out.println("old");
+		System.out.println("XXYYY");
 	}
 }
