@@ -49,8 +49,14 @@ public class CircularQueue_Main {
 	}
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		CircularQueue_Main queue = new CircularQueue_Main(10);
+		int[] array = new int[10];
+		for(int i = 0; i<array.length-5;i++){
+			queue.enqueue(i);
+		}
+		for(int i = 0; i<array.length;i++){
+			System.out.print(queue.dequeue() + "  ");
+		}
 	}
 
 }
